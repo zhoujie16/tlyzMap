@@ -78,6 +78,7 @@
 			mainChart.setOption(getMapOption());
 			mainChart.on('click', function(d) {
 				console.log('mainChart click', d)
+//				alert( (d.event.target.path._x0).toFixed(2) + ',' +  (d.event.target.path._y0).toFixed(2))
 				if(d.name == 'China') {
 					showChinaMap()
 				} else if(d.name == '安徽') {
@@ -86,6 +87,7 @@
 						areaData:anHuiData,
 						cityData:anHuiData
 					})
+					
 				} else if(d.name == '江苏') {
 					showProvince({
 						name:'江苏',
@@ -114,7 +116,7 @@
 			mapName = d.name;
 			areaData = d.areaData;
 			cityData = d.cityData;
-			pieData = getProvincePie(d.cityData);
+			pieData = getProvincePie(d.areaData);
 			mainChart.setOption(getMapOption());
 		}
 
@@ -217,7 +219,7 @@
 								arr.push(nameMap[d.name]||d.name)
 							}
 						});
-						return arr;
+						return arr.reverse();
 					}(),
 				}],
 				visualMap: {
@@ -334,7 +336,7 @@
 									arr.push(item)
 								}
 							});
-							return arr;
+							return arr.reverse();
 						}(),
 					},
 					//饼图

@@ -900,9 +900,173 @@ var provincialCapitalData = [{
 	"value": 710
 }];
 
-var anHuiData = [{"name":"合肥市","coor":[0,0],"value":87},{"name":"芜湖市","coor":[0,0],"value":122},{"name":"蚌埠市","coor":[0,0],"value":147},{"name":"淮南市","coor":[0,0],"value":73},{"name":"马鞍山市","coor":[0,0],"value":34},{"name":"淮北市","coor":[0,0],"value":134},{"name":"铜陵市","coor":[117.5,30.5],"value":63},{"name":"安庆市","coor":[0,0],"value":39},{"name":"黄山市","coor":[0,0],"value":108},{"name":"滁州市","coor":[0,0],"value":81},{"name":"阜阳市","coor":[0,0],"value":137},{"name":"宿州市","coor":[0,0],"value":83},{"name":"六安市","coor":[0,0],"value":62},{"name":"亳州市","coor":[0,0],"value":90},{"name":"池州市","coor":[0,0],"value":8},{"name":"宣城市","coor":[0,0],"value":91}];
-var jiangSuData = [{"name":"南京市","coor":[0,0],"value":107},{"name":"无锡市","coor":[0,0],"value":65},{"name":"徐州市","coor":[0,0],"value":77},{"name":"常州市","coor":[0,0],"value":110},{"name":"苏州市","coor":[0,0],"value":11},{"name":"南通市","coor":[0,0],"value":19},{"name":"连云港市","coor":[0,0],"value":103},{"name":"淮安市","coor":[0,0],"value":100},{"name":"盐城市","coor":[0,0],"value":25},{"name":"扬州市","coor":[0,0],"value":60},{"name":"镇江市","coor":[0,0],"value":128},{"name":"泰州市","coor":[0,0],"value":76},{"name":"宿迁市","coor":[0,0],"value":138}];
-var zheJiangData = [{"name":"杭州市","coor":[0,0],"value":122},{"name":"宁波市","coor":[0,0],"value":135},{"name":"温州市","coor":[0,0],"value":98},{"name":"嘉兴市","coor":[0,0],"value":151},{"name":"湖州市","coor":[0,0],"value":121},{"name":"绍兴市","coor":[0,0],"value":78},{"name":"金华市","coor":[0,0],"value":17},{"name":"衢州市","coor":[0,0],"value":71},{"name":"舟山市","coor":[0,0],"value":93},{"name":"台州市","coor":[0,0],"value":54},{"name":"丽水市","coor":[0,0],"value":132}]
+var anHuiData = [{
+	"name": "合肥市",
+	"coor": [117.2757034, 31.86325455],
+	"value": 90
+}, {
+	"name": "芜湖市",
+	"coor": [118.3598328, 31.33449554],
+	"value": 114
+}, {
+	"name": "蚌埠市",
+	"coor": [117.3613815, 32.93924332],
+	"value": 132
+}, {
+	"name": "淮南市",
+	"coor": [117.0207291, 32.6166954],
+	"value": 111
+}, {
+	"name": "马鞍山市",
+	"coor": [118.4807129, 31.72492409],
+	"value": 36
+}, {
+	"name": "淮北市",
+	"coor": [116.7874985, 33.9704895],
+	"value": 150
+}, {
+	"name": "铜陵市",
+	"coor": [117.813179, 30.92524719],
+	"value": 87
+}, {
+	"name": "安庆市",
+	"coor": [117.0344315, 30.51264572],
+	"value": 39
+}, {
+	"name": "黄山市",
+	"coor": [118.3090668, 29.72084427],
+	"value": 21
+}, {
+	"name": "滁州市",
+	"coor": [118.3011627, 32.31653214],
+	"value": 85
+}, {
+	"name": "阜阳市",
+	"coor": [115.8097305, 32.90220642],
+	"value": 158
+}, {
+	"name": "宿州市",
+	"coor": [116.9701538, 33.6401329],
+	"value": 141
+}, {
+	"name": "六安市",
+	"coor": [116.4927902, 31.75352287],
+	"value": 62
+}, {
+	"name": "亳州市",
+	"coor": [115.7709, 33.879292],
+	"value": 66
+}, {
+	"name": "池州市",
+	"coor": [117.4773331, 30.65686607],
+	"value": 87
+}, {
+	"name": "宣城市",
+	"coor": [118.7586551, 30.94078918],
+	"value": 15
+}];
+var jiangSuData = [{
+	"name": "南京市",
+	"coor": [118.7727814, 32.04761505],
+	"value": 158
+}, {
+	"name": "无锡市",
+	"coor": [120.2991333, 31.57723045],
+	"value": 89
+}, {
+	"name": "徐州市",
+	"coor": [117.1856079, 34.26752853],
+	"value": 88
+}, {
+	"name": "常州市",
+	"coor": [119.9502869, 31.78393364],
+	"value": 58
+}, {
+	"name": "苏州市",
+	"coor": [120.6187286, 31.31645203],
+	"value": 17
+}, {
+	"name": "南通市",
+	"coor": [120.8555679, 32.01506805],
+	"value": 87
+}, {
+	"name": "连云港市",
+	"coor": [119.1668015, 34.60517883],
+	"value": 147
+}, {
+	"name": "淮安市",
+	"coor": [119.14111, 33.502789],
+	"value": 58
+}, {
+	"name": "盐城市",
+	"coor": [120.1351776, 33.38982773],
+	"value": 26
+}, {
+	"name": "扬州市",
+	"coor": [119.4368362, 32.39188767],
+	"value": 86
+}, {
+	"name": "镇江市",
+	"coor": [119.4442978, 32.20589829],
+	"value": 107
+}, {
+	"name": "泰州市",
+	"coor": [119.91124, 32.495872],
+	"value": 112
+}, {
+	"name": "宿迁市",
+	"coor": [118.29706, 33.958302],
+	"value": 43
+}];
+var zheJiangData = [{
+	"name": "杭州市",
+	"coor": [120.1592484, 30.26599503],
+	"value": 69
+}, {
+	"name": "宁波市",
+	"coor": [121.5412827, 29.87066841],
+	"value": 34
+}, {
+	"name": "温州市",
+	"coor": [120.6502914, 28.01647568],
+	"value": 143
+}, {
+	"name": "嘉兴市",
+	"coor": [120.7536316, 30.77111435],
+	"value": 39
+}, {
+	"name": "湖州市",
+	"coor": [120.0971298, 30.86603928],
+	"value": 9
+}, {
+	"name": "绍兴市",
+	"coor": [120.5739288, 30.01093102],
+	"value": 107
+}, {
+	"name": "金华市",
+	"coor": [119.6522064, 29.11081696],
+	"value": 101
+}, {
+	"name": "衢州市",
+	"coor": [118.8691788, 28.9584446],
+	"value": 14
+}, {
+	"name": "舟山市",
+	"coor": [122.1016083, 30.02004242],
+	"value": 116
+}, {
+	"name": "台州市",
+	"coor": [121.4205629, 28.6561185037],
+	"value": 25
+}, {
+	"name": "临海市",
+	"coor": [121.1184464, 28.84889221],
+	"value": 153
+}, {
+	"name": "丽水市",
+	"coor": [119.9165573, 28.44883728],
+	"value": 43
+}]
 var anHuiCityData = anHuiData;
 
 function sortVal(a, b) {
@@ -913,7 +1077,8 @@ provinceData = provinceData.sort(sortVal)
 provincialCapitalData = provincialCapitalData.sort(sortVal)
 anHuiData = anHuiData.sort(sortVal)
 anHuiCityData = anHuiCityData.sort(sortVal)
-
+jiangSuData = jiangSuData.sort(sortVal)
+zheJiangData = zheJiangData.sort(sortVal)
 //百分比数据
 function getWorldPie() {
 	var arr = [];
@@ -932,7 +1097,7 @@ function getWorldPie() {
 	return arr;
 }
 
-function getChinaPie(){
+function getChinaPie() {
 	var arr = [];
 	provinceData.forEach(function(d, i) {
 		if(i < 5) {
@@ -949,7 +1114,7 @@ function getChinaPie(){
 	return arr;
 }
 
-function getProvincePie(data){
+function getProvincePie(data) {
 	var arr = [];
 	data.forEach(function(d, i) {
 		if(i < 5) {
